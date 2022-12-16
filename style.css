@@ -3,15 +3,40 @@ body {
     font-family: 'Lora';
 }
 
-h1 {
+.caixa-cabecalho {
+    margin: 15px;
+}
+
+.caixa-cabecalho h1 {
     font-size: 30px;
     padding: 20px;
     text-align: center;
     text-transform: uppercase;
 }
 
+.caixa-cabecalho p {
+    text-align: center;
+}
+
+.info-box {
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    width: 12%;
+    border-right: 1px solid black;
+}
+
+.info-box p {
+    margin: 10px;
+}
+
+.caixa-casas {
+    border-top: 1px solid black;
+    padding: 15px;
+}
+
 .caixa-main {
-    width: 90%;
+    width: 88%;
     margin: 0 auto;
     text-align: center;
 }
@@ -27,22 +52,30 @@ h1 {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
 }
 
 .caixa-main a:hover {
     color: whitesmoke;
-    text-shadow: 0px 1px 4px rgb(0, 0, 0);
+    text-shadow: 0px 0px 3px rgb(0, 0, 0);
 }
 
 .imagem-casa {
     margin-top: 10px;
-    width: 200px;
-    height: 120px;
-    border: 0.5px solid white;
+    width: 300px;
+    height: 220px;
+    border: 0.5px solid rgb(56, 56, 56);
+    box-shadow: 0px 0px 3px rgb(0, 0, 0);
     border-radius: 4px;
 }
 
 .valor {
-    font-size: 20px;
+    font-size: 16px;
     color: black;
+    margin: 5px;
+}
+
+.informacoes {
+    font-size: 14px;
 }
