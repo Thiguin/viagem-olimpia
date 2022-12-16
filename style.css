@@ -3,6 +3,10 @@ body {
     font-family: 'Lora';
 }
 
+.borda {
+    border-bottom: 1px solid black;
+}
+
 .caixa-cabecalho {
     margin: 15px;
 }
@@ -16,12 +20,13 @@ body {
 
 .caixa-cabecalho p {
     text-align: center;
+    margin-bottom: 5px;
 }
 
 .info-box {
     position: absolute;
     left: 0;
-    margin-top: 10px;
+    margin-top: 30px;
     width: 12%;
     border-right: 1px solid black;
 }
@@ -36,7 +41,7 @@ body {
 }
 
 .caixa-main {
-    width: 88%;
+    width: 77.5%;
     margin: 0 auto;
     text-align: center;
 }
@@ -63,7 +68,7 @@ body {
 
 .imagem-casa {
     margin-top: 10px;
-    width: 300px;
+    width: 310px;
     height: 220px;
     border: 0.5px solid rgb(56, 56, 56);
     box-shadow: 0px 0px 3px rgb(0, 0, 0);
@@ -78,4 +83,5 @@ body {
 
 .informacoes {
     font-size: 14px;
+    padding: 0.5px;
 }
