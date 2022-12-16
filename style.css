@@ -1,3 +1,7 @@
+html {
+    font-family: 'Lora';
+}
+
 body {
     margin: 20px;
     font-family: 'Lora';
@@ -8,7 +12,8 @@ body {
 }
 
 .caixa-cabecalho {
-    margin: 15px;
+    margin: 0 auto;
+    width: 77.5%;
 }
 
 .caixa-cabecalho h1 {
@@ -20,13 +25,27 @@ body {
 
 .caixa-cabecalho p {
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.navegacao a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.navegacao a:hover {
+    color: whitesmoke;
+    text-shadow: 0px 0px 3px rgb(0, 0, 0);
 }
 
 .info-box {
     position: absolute;
     left: 0;
-    margin-top: 30px;
+    margin-top: 10px;
     width: 12%;
     border-right: 1px solid black;
 }
@@ -52,7 +71,7 @@ body {
     width: 30%;
 }
 
-.caixa-main a {
+.caixa-casas a {
     color: rgb(0, 0, 0);
     text-decoration: none;
     text-transform: uppercase;
@@ -61,14 +80,14 @@ body {
     transition: 0.3s;
 }
 
-.caixa-main a:hover {
+.caixa-casas a:hover {
     color: whitesmoke;
     text-shadow: 0px 0px 3px rgb(0, 0, 0);
 }
 
 .imagem-casa {
     margin-top: 10px;
-    width: 310px;
+    width: 320px;
     height: 220px;
     border: 0.5px solid rgb(56, 56, 56);
     box-shadow: 0px 0px 3px rgb(0, 0, 0);
@@ -84,4 +103,38 @@ body {
 .informacoes {
     font-size: 14px;
     padding: 0.5px;
+}
+
+.info-meia {
+    font-size: 15px;
+    font-weight: bold;
+    color: darkred;
+}
+
+.atividades {
+    margin-top: 15px;
+}
+
+.atividades h2 {
+    font-weight: bold;
+}
+
+.atividades li {
+    width: 40%;
+}
+
+.atividades p {
+    margin: 5px;
+}
+
+.atividades a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.atividades a:hover {
+    color: whitesmoke;
+    text-shadow: 0px 0px 3px rgb(0, 0, 0);
 }
